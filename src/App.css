@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.carousel {
+  margin-top: 20px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.promos{
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  object-fit: contain;
+  object-position: center
+}
+
+
+.navbar {
+  background-color: rgba(255, 140, 0, 0.7);
+  font-size: 18px;
+  color: black;
+}
+
+.navbar .navbar-brand {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 2%;
+}
+
+.navbar .navbar-nav {
+  margin-left: auto;
+}
+
+.navbar .nav-link:hover {
+  background-color: white;
+  color: bla;
+}
+
+
+.Biblioteca {
+  background-image: url('./img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
